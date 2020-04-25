@@ -58,6 +58,18 @@
 		    <version>1.2.12</version>
 		</dependency>
 
+		<!-- jpa -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		
+		<!-- thymeleaf -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+
 		<!-- test -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -65,6 +77,8 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
+
 
 	<!-- 插件信息 -->
 	<build>
