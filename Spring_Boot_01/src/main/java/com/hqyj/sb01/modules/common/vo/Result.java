@@ -2,8 +2,11 @@ package com.hqyj.sb01.modules.common.vo;
 
 public class Result<T> {
 
+	//状态值
 	private int status;
+	//消息
 	private String message;
+	//对象
 	private T object;
 	
 	public Result() {
